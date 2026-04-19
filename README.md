@@ -11,7 +11,8 @@ Repositorio de la materia **Programación 1** de la **Tecnicatura Universitaria 
 | 1 | Estructuras Secuenciales | ✓ Completa |
 | 2 | Estructuras Condicionales (operadores relacionales y lógicos) | ✓ Completa |
 | 3 | Estructuras Repetitivas (`while` y `for`) | ✓ Completa |
-| 4 | Trabajo colaborativo con Git y GitHub | 🟢 En curso (este repositorio) |
+| 4 | Trabajo colaborativo con Git y GitHub | ✓ Completa (este repositorio) |
+| 5 | Listas (indexación, slicing, métodos, listas anidadas) | ✓ Completa |
 
 ## Estructura del repositorio
 
@@ -29,7 +30,8 @@ UTN-TUPaD-Programacion1/
     └── trabajos-practicos/                   # Resoluciones de TPs
         ├── tp1-estructuras-secuenciales/
         ├── tp2-estructuras-condicionales/
-        └── tp3-integrador-estructuras-repetitivas/
+        ├── tp3-integrador-estructuras-repetitivas/
+        └── tp5-integrador-listas/
 ```
 
 ## Trabajos prácticos incluidos
@@ -52,6 +54,11 @@ UTN-TUPaD-Programacion1/
 
 📁 [`semana-01/trabajos-practicos/tp3-integrador-estructuras-repetitivas/`](./semana-01/trabajos-practicos/tp3-integrador-estructuras-repetitivas/)
 
+### TP5 Integrador - Listas (Unidad 5)
+13 ejercicios sobre listas: indexación, slicing, métodos integrados (`sorted`, `append`, `remove`, `index`, `reverse`), listas anidadas y matrices. Incluye Ta-Te-Ti, matriz de ventas y ranking de puntajes.
+
+📁 [`semana-01/trabajos-practicos/tp5-integrador-listas/`](./semana-01/trabajos-practicos/tp5-integrador-listas/)
+
 ## Cuestionarios
 
 | # | Tema | Resultado |
@@ -67,8 +74,11 @@ Requiere **Python 3.10 o superior**.
 # Ejecutar un ejercicio individual
 python semana-01/trabajos-practicos/tp1-estructuras-secuenciales/ejercicio-01.py
 
-# Ejecutar el TP integrador (con menú interactivo)
+# Ejecutar el TP3 integrador (con menú interactivo)
 python semana-01/trabajos-practicos/tp3-integrador-estructuras-repetitivas/entrega/tp3-integrador-estructuras-repetitivas.py
+
+# Ejecutar el TP5 integrador de Listas (con menú interactivo)
+python semana-01/trabajos-practicos/tp5-integrador-listas/entrega/tp5-integrador-listas.py
 ```
 
 ## Tecnologías
